@@ -8,7 +8,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { AboutComponent } from './pages/about/about.component';
 import { HomeComponent } from './pages/home/home.component';
 import { StoreComponent } from './pages/store/store.component';
-import { HomeHeaderComponent } from './components/home-header/home-header.component';
+import { HomeHeaderComponent } from './components/header/home-header/home-header.component';
 
 @NgModule({
   declarations: [
