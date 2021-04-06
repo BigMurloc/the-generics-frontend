@@ -11,6 +11,8 @@ import { StoreComponent } from './pages/store/store.component';
 import { HomeHeaderComponent } from './components/header/home-header/home-header.component';
 import { OrderComponent } from './components/order/order.component';
 import { ShopComponent } from './components/shop/shop.component';
+import { TourListComponent } from './components/tour-list/tour-list.component';
+import { AboutSectionComponent } from './components/about-section/about-section.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,9 @@ import { ShopComponent } from './components/shop/shop.component';
     StoreComponent,
     HomeHeaderComponent,
     OrderComponent,
-    ShopComponent
+    ShopComponent,
+    TourListComponent,
+    AboutSectionComponent
   ],
   imports: [
     BrowserModule,
